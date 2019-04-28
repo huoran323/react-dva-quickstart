@@ -8,7 +8,7 @@ export default {
 
   //reducers 等同于 redux 里的 reducer，接收 action，同步更新 state
   reducers: {
-    delete(state, { payload: id }) {
+    deleted(state, { payload: id }) {
       return state.filter(item => item.id !== id);
     }
   }
