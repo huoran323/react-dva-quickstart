@@ -1,11 +1,10 @@
 import React from "react";
-import CounterComponent from "../components/Counter";
 
 const Counter = props => {
   return (
     <div>
-      <p>Counter</p>
-      <CounterComponent />
+      <h1>1</h1>
+      <button>+</button>
     </div>
   );
 };
