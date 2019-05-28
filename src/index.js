@@ -1,9 +1,10 @@
 import dva from "dva";
 import "./index.css";
+import { createBrowserHistory as createHistory } from "history";
 
 // 1. Initialize 创建dva的实例
-// const app = dva();
 const app = dva({
+  history: createHistory(),
   initialState: {
     products: [{ name: "dva", id: 1 }, { name: "antd", id: 2 }]
   }
