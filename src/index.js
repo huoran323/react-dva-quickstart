@@ -1,7 +1,7 @@
 import dva from "dva";
 import "./index.css";
 
-// 1. Initialize
+// 1. Initialize 创建dva的实例
 // const app = dva();
 const app = dva({
   initialState: {
