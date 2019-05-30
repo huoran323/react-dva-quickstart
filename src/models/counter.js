@@ -1,4 +1,5 @@
 import { delay } from "dva/saga";
+import { routerRedux } from "dva/router";
 
 export default {
   namespace: "counter",
@@ -33,6 +34,8 @@ export default {
       // 演示异步操作
       yield call(delay, 3000);
       yield put({ type: "add" });
+      // dva路由跳转方式
+      yield put(routerRedux.push("/"));
     }
   }
 };
