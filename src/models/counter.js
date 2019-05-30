@@ -6,6 +6,12 @@ export default {
   state: {
     count: 1
   },
+  // 监听事件触发里面的函数
+  subscriptions: {
+    setup({ dispatch, history }) {
+      // eslint-disable-line
+    }
+  },
   reducers: {
     // action中是可以包含参数的
     add(state, action) {
