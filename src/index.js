@@ -1,6 +1,7 @@
 import dva from "dva";
 import "./index.css";
 import { createBrowserHistory as createHistory } from "history";
+import createLoading from "dva-loading";
 
 // 1. Initialize 创建dva的实例
 const app = dva({
@@ -12,6 +13,8 @@ const app = dva({
 
 // 2. Plugins
 // app.use({});
+// 使用dva-loading
+app.use(createLoading());
 
 // 3. Model
 // app.model(require('./models/example').default);

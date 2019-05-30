@@ -11,6 +11,7 @@
     "axios": "^0.18.0",
     "babel-plugin-import": "^1.11.0",
     "dva": "^2.1.0",
+    "dva-loading": "^3.0.4",
     "history": "^4.9.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

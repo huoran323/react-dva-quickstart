@@ -3676,6 +3676,13 @@ dva-core@^1.4.0:
     redux-saga "^0.16.0"
     warning "^3.0.0"
 
+dva-loading@^3.0.4:
+  version "3.0.4"
+  resolved "http://r.cnpmjs.org/dva-loading/download/dva-loading-3.0.4.tgz#93c09e2a448d9ba4b98e5a9c78eef534d2279626"
+  integrity sha1-k8CeKkSNm6S5jlqceO71NNInliY=
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 dva@^2.1.0:
   version "2.4.1"
   resolved "http://r.cnpmjs.org/dva/download/dva-2.4.1.tgz#a3eeb07bb8bc6e2ff9ffe31799d03cb69e45f5fd"
